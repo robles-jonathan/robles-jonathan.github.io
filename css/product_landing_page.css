@@ -1,0 +1,120 @@
+header{
+    background:lightgrey;
+    position:fixed;
+    top:0;
+    width:100%;
+}
+main{
+    padding:20px;
+    margin-top:30px;
+    height:1500px;
+}
+h1{
+    text-align:center;
+}
+h2{
+    text-align:center;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #111;
+}
+.active{
+    background-color: #4CAF50;
+}
+.container {
+    max-width: 700px;
+    felx-wrap: wrap;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+}
+.join{
+    background-color:lightgrey;
+    margin-top:10px;
+    padding-bottom:30px;
+    margin-left:-20px;
+    margin-right: -28px;
+}
+.feature {
+    background-color: #304261;
+    border-radius: 10px;
+    margin: 0 1.66%;
+    padding: 10px;
+    width: 30%;
+    text-align: center;
+}
+.feature h2 {
+    color: white;
+    font-size: 16px;
+    margin-top: 2px;
+}
+
+.feature p {
+    color: white;
+    font-size: 14px;
+    line-height: 20px;
+}
+.subscription {
+    background-color: #304261;
+    border-radius: 10px;
+    margin: 0 1.66%;
+    padding: 10px;
+    width: 30%;
+    text-align: center;
+}
+.subscription h3 {
+    color: white;
+    font-size: 20px;
+    margin-top: 2px;
+}
+.subscription h2{
+    color: white;
+    font-size:40px;
+}
+
+.subscription p {
+    color: white;
+    font-size: 14px;
+    line-height: 20px;
+}
+.subprice {
+    color: white;
+    margin-top:-40px;
+    font-size: 14px;
+    line-height: 20px;
+}
+.form-group{
+    margin-top:20px;
+}
+#video{
+    margin-top:20px;
+}
+#about{
+    max-width:700px;
+    margin:auto;
+}
+
+@media(max-width:500px){
+    header{
+        max-width:100%;
+        background-color: blue;
+    }
+}
+
